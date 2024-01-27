@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #030015!important;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 100vw;
+    min-height: 100vh;
+    overflow-x: clip;
+    color: #fff;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+}
+*{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  /* styles.css or your global CSS file */
+.nextui-navbar {
+    background-color:transparent!important; /* Apply blue background color */
+  }
+  
